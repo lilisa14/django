@@ -8,4 +8,4 @@ def about(request):
     return render(request, 'main/about.html')
 
 def links(request):
-    return render(request, 'main/links.html')
+    return render(request, 'main/list.html')
